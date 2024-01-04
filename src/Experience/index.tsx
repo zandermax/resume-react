@@ -1,4 +1,4 @@
-import "./Experience.scss";
+import './Experience.scss';
 
 const Experience = () => {
 	return (
@@ -54,11 +54,11 @@ const Experience = () => {
 							On the way to transitioning from a software engineer to specialize
 							on the front-end, I was part of a newly-created team that created
 							the AWS product that enables AWS customers to receive customer
-							support in chat applications, the first instance being{" "}
+							support in chat applications, the first instance being{' '}
 							<a
+								target="_blank"
 								href="https://docs.aws.amazon.com/awssupport/latest/user/aws-support-app-for-slack.html"
 								rel="noreferrer"
-								target="_blank"
 							>
 								"AWS Support App in Slack"
 							</a>
@@ -111,22 +111,22 @@ const Experience = () => {
 							Developed an open-source npm software package to assist with
 							Salesforce DX development,
 							<a
+								target="_blank"
 								href="https://www.npmjs.com/package/sfdx"
 								rel="noreferrer"
-								target="_blank"
 							>
 								sfdx
 							</a>
 							, which allows Salesforce DX features to be directly usable within
 							Node projects. Also created an additional project that interacts
-							with{" "}
+							with{' '}
 							<a
+								target="_blank"
 								href="https://www.npmjs.com/package/sfdx"
 								rel="noreferrer"
-								target="_blank"
 							>
 								sfdx
-							</a>{" "}
+							</a>{' '}
 							via a UI in React, to make the functionality provided by
 							Salesforce DX easier to use by non-developers.
 						</p>
