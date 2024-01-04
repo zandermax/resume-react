@@ -1,0 +1,12 @@
+{
+	"extends": "canonical/auto",
+	"rules": {
+		"indent": ["error", "tab"],
+		"prettier/prettier": [
+			"error",
+			{
+				"useTabs": true
+			}
+		]
+	}
+}
