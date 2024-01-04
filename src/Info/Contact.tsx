@@ -1,0 +1,80 @@
+const Contact = () => {
+	return (
+		<article>
+			<h2>Contact</h2>
+			<ul id="contact-list">
+				<li>
+					<address>
+						<a
+							href="mailto:zandermaxwell@hey.com"
+							className="li-with-icon"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<p>zandermaxwell@hey.com</p>
+							<img
+								alt="mail"
+								className="contact-icon"
+								src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/envelope.svg"
+							/>
+						</a>
+					</address>
+				</li>
+				<li>
+					<span>
+						<a
+							href="tel:+14402539629"
+							className="li-with-icon"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<p>+1-440-253-9629</p>
+							<img
+								alt="phone"
+								className="contact-icon"
+								src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/phone.svg"
+							/>
+						</a>
+					</span>
+				</li>
+				<li>
+					<span>
+						<a
+							className="li-with-icon"
+							target="_blank"
+							href="https://www.linkedin.com/in/zandermax"
+							rel="noreferrer"
+						>
+							<p>linkedin.com/in/zandermax</p>
+							<img
+								alt="LinkedIn logo"
+								id="logo-linkedin"
+								className="contact-icon"
+								src="https://raw.githubusercontent.com/Automattic/social-logos/trunk/svg-min/linkedin.svg"
+							/>
+						</a>
+					</span>
+				</li>
+				<li>
+					<span>
+						<a
+							className="li-with-icon"
+							target="_blank"
+							href="https://www.github.com/zandermax"
+							rel="noreferrer"
+						>
+							<p>github.com/zandermax</p>
+							<img
+								className="contact-icon"
+								alt="GitHub logo"
+								src="https://raw.githubusercontent.com/primer/octicons/main/icons/mark-github-16.svg"
+							/>
+						</a>
+					</span>
+				</li>
+			</ul>
+		</article>
+	);
+};
+
+export default Contact;

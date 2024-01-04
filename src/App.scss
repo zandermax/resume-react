@@ -1,0 +1,10 @@
+
+@use "styles/color-classes";
+@use "styles/colors";
+
+body {
+	margin-inline: auto;
+	max-width: 80%;
+	background-color: colors.$body-background;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
