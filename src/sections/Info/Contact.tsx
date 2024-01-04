@@ -6,10 +6,10 @@ const Contact = () => {
 				<li>
 					<address>
 						<a
-							href="mailto:zandermaxwell@hey.com"
 							className="li-with-icon"
-							target="_blank"
+							href="mailto:zandermaxwell@hey.com"
 							rel="noreferrer"
+							target="_blank"
 						>
 							<p>zandermaxwell@hey.com</p>
 							<img
@@ -23,10 +23,10 @@ const Contact = () => {
 				<li>
 					<span>
 						<a
-							href="tel:+14402539629"
 							className="li-with-icon"
-							target="_blank"
+							href="tel:+14402539629"
 							rel="noreferrer"
+							target="_blank"
 						>
 							<p>+1-440-253-9629</p>
 							<img
@@ -41,15 +41,15 @@ const Contact = () => {
 					<span>
 						<a
 							className="li-with-icon"
-							target="_blank"
 							href="https://www.linkedin.com/in/zandermax"
 							rel="noreferrer"
+							target="_blank"
 						>
 							<p>linkedin.com/in/zandermax</p>
 							<img
 								alt="LinkedIn logo"
-								id="logo-linkedin"
 								className="contact-icon"
+								id="logo-linkedin"
 								src="https://raw.githubusercontent.com/Automattic/social-logos/trunk/svg-min/linkedin.svg"
 							/>
 						</a>
@@ -59,14 +59,14 @@ const Contact = () => {
 					<span>
 						<a
 							className="li-with-icon"
-							target="_blank"
 							href="https://www.github.com/zandermax"
 							rel="noreferrer"
+							target="_blank"
 						>
 							<p>github.com/zandermax</p>
 							<img
-								className="contact-icon"
 								alt="GitHub logo"
+								className="contact-icon"
 								src="https://raw.githubusercontent.com/primer/octicons/main/icons/mark-github-16.svg"
 							/>
 						</a>
