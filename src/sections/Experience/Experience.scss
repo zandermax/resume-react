@@ -1,4 +1,4 @@
-@use "../styles/colors";
+@use "../../styles/colors";
 
 @mixin summary-spin {
 	@media not (prefers-reduced-motion) {

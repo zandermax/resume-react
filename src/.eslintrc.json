@@ -1,12 +1,18 @@
 {
 	"extends": "canonical/auto",
 	"rules": {
+		"import/no-unassigned-import": [
+			{
+				"allow": ["*/*.scss", "@fontsource/*"]
+			},
+			"error"
+		],
 		"indent": ["error", "tab"],
 		"prettier/prettier": [
-			"error",
 			{
 				"useTabs": true
-			}
+			},
+			"error"
 		]
 	}
 }

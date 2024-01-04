@@ -1,9 +1,9 @@
-import Skills from '../Skills';
-import AboutMe from './AboutMe';
-import Contact from './Contact';
-import Education from './Education';
+import Skills from "../Skills";
+import AboutMe from "./AboutMe";
+import Contact from "./Contact";
+import Education from "./Education";
 
-import './Info.scss';
+import "./Info.scss";
 
 const Info = () => {
 	return (

@@ -1,7 +1,8 @@
-import './App.scss';
-import '@fontsource/inter';
-import Header from './Header';
-import Main from './Main';
+import "./App.scss";
+import "@fontsource/inter";
+
+import Header from "./sections/Header";
+import Main from "./sections/Main";
 
 const App = () => {
 	return (
