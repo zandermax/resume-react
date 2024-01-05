@@ -1,0 +1,27 @@
+[
+	{
+		"company": "Amazon Web Services (AWS)",
+		"dateStart": 2019,
+		"positions": [
+			{
+				"currentPosition": true,
+				"description": [
+					"Additionally, I am leading the development of re-usable micro-frontends used in multiple Amazon software packages by multiple development teams. These are created and connected through Webpack's Federated Modules. Each implementation uses React lazy-loading, and the latest versions use custom web components and custom events to communicate with the host application.",
+					"I am currently responsible for the front end design and development on products used by IT Support Engineers (ITSEs) that support all Amazon employees (about 5000 regular users). The main product is a web application that incorporates many tools together for the sake of enabling ITSEs to have an efficient and centralized workflow."
+				],
+				"positionSubtitle": "IT Support contact resolution software development",
+				"positionTitle": "Front-End Engineer",
+				"skillsList": [
+					"AWS",
+					"HTML",
+					"Node.js",
+					"npm",
+					"React",
+					"Redux",
+					"Sass / CSS",
+					"Typescript"
+				]
+			}
+		]
+	}
+]
