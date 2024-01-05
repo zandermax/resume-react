@@ -1,14 +1,21 @@
-const Education = () => {
+import { type ResponsiveProps } from "../../types";
+import Typography from "@mui/joy/Typography";
+
+type EducationProps = ResponsiveProps;
+
+const Education: React.FC<EducationProps> = ({ mobileLayout }) => {
 	return (
 		<article>
-			<h2>Education</h2>
-			<h3>Iowa State University</h3>
+			<span className="header-extra-space">
+				<Typography level="h2">Education</Typography>
+			</span>
+			<Typography level="h3">Iowa State University</Typography>
 			<hgroup>
-				<h4>
+				<Typography level="h4">
 					Computer Engineering
-					<br />
+					{mobileLayout ? ", " : <br />}
 					Bachelor of Science
-				</h4>
+				</Typography>
 				<p className="supplemental-list">Philosophy, Psychology Minors</p>
 			</hgroup>
 			<p>United States – 2015</p>

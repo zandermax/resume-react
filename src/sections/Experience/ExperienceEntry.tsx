@@ -1,6 +1,8 @@
+import Typography from "@mui/joy/Typography";
+
 // TODO create schema for JSON files
 type PositionInfo = {
-	currentPosition: boolean;
+	currentPosition?: boolean;
 	description: string[];
 	positionSubtitle?: string;
 	positionTitle: string;
@@ -23,7 +25,9 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 	return (
 		<article>
 			<hgroup>
-				<h3 className="color-accent">{company}</h3>
+				<Typography level="h3">
+					<span className="color-accent">{company}</span>
+				</Typography>
 				<p>
 					{dateStart} - {dateEnd ?? "Present"}
 				</p>
@@ -38,7 +42,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 				}) => (
 					<div className="employment-position" key={positionTitle}>
 						<hgroup>
-							<h4>{positionTitle}</h4>
+							<Typography level="h4">{positionTitle}</Typography>
 							{currentPosition && <p>(Current position)</p>}
 						</hgroup>
 						<div className="employment-details">

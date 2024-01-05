@@ -3,9 +3,7 @@ const Skills = () => {
 		<article>
 			<h2>Technology Expertise</h2>
 			<ul id="tech-expertise-list">
-				<li>Adobe CC</li>
 				<li>AWS</li>
-				<li>Babel</li>
 				<li>CSS</li>
 				<li>git</li>
 				<li>GraphQL</li>

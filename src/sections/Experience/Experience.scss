@@ -12,10 +12,7 @@
 	}
 }
 
-.experience {
-	padding-inline: var(--sections-gap);
-	grid-column: span 2;
-
+#experience {
 	h3, h4 {
 		margin-block: 0;
 	}
@@ -23,10 +20,6 @@
 	hgroup p {
 		font-style: italic;
 		opacity: 0.7;
-	}
-
-	.employment-position, .employment-details {
-		padding-left: 1rem;
 	}
 
 	.employment-details p {
@@ -96,6 +89,28 @@
 		p {
 			margin-top: revert;
 			font-size: 1.25rem;
+		}
+	}
+
+	&:not(.mobile) {
+		padding-inline: 3rem;
+
+		.employment-position, .employment-details {
+			padding-left: unset;
+		}
+	}
+
+	&.mobile {
+		padding-inline: 2rem;
+
+		h2 {
+			text-align: center;
+		}
+
+		article {
+			h4, h5, hgroup {
+				text-align: center;
+			}
 		}
 	}
 }

@@ -1,11 +1,14 @@
 import "./Header.scss";
+import Typography from "@mui/joy/Typography";
 
 const Header = () => {
 	return (
 		<header>
 			<hgroup>
-				<h1>Zander Maxwell</h1>
-				<h2 className="color-accent">Front End Software Engineer</h2>
+				<Typography level="h1">Zander Maxwell</Typography>
+				<Typography level="h2">
+					<span className="color-accent">Front End Software Engineer</span>
+				</Typography>
 			</hgroup>
 		</header>
 	);

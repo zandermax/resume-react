@@ -4,20 +4,9 @@
 #info {
 	display: flex;
 	flex-direction: column;
-	grid-column: span 1;
-	padding-inline: var(--sections-gap);
-	border-right: 1px solid colors.$accent-color;
-
-	* {
-		text-align: end;
-	}
 
 	h3, h4 {
 		margin-block: 0;
-	}
-
-	p, li {
-		line-height: 2;
 	}
 
 	li a {
@@ -28,10 +17,6 @@
 		&:hover img {
 			@include animations.spin($delay: 0.0s);
 		}
-	}
-
-	li {
-		font-size: 1.25rem;
 	}
 
 	.li-with-icon {
@@ -69,8 +54,12 @@
 		height: 3ex;
 	}
 
+	.header-extra-space h2 {
+		margin-block: 1rem;
+	}
+
 	#contact-list {
-		margin-top: 0;
+		margin-block: 0;
 		padding: 0;
 		list-style: none;
 	}
@@ -79,5 +68,43 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		list-style: none;
+	}
+
+	&:not(.mobile) {
+		margin-inline-start: 2ch;
+		padding-inline-end: var(--sections-gap);
+		border-right: 1px solid colors.$accent-color;
+
+		* {
+			text-align: end;
+		}
+
+		p, li {
+			line-height: 2;
+		}
+	}
+
+	&.mobile {
+		padding-inline: 1rem;
+
+		* {
+			text-align: center;
+		}
+
+		li {
+			line-height: 2;
+		}
+
+		#contact-list {
+			.li-with-icon {
+				justify-content: center;
+			}
+		}
+
+		#tech-expertise-list {
+			grid-template-columns: repeat(3, 1fr);
+			padding-inline: min(5%, 5rem);
+			column-gap: 0.5rem;
+		}
 	}
 }

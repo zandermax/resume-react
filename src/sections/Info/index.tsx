@@ -1,15 +1,18 @@
 import "./Info.scss";
+import { type ResponsiveProps } from "../../types";
 import Skills from "../Skills";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Education from "./Education";
 
-const Info = () => {
+type InfoProps = ResponsiveProps;
+
+const Info: React.FC<InfoProps> = ({ mobileLayout }) => {
 	return (
-		<section id="info">
+		<section className={mobileLayout ? "mobile" : ""} id="info">
 			<Contact />
 			<AboutMe />
-			<Education />
+			<Education mobileLayout={mobileLayout} />
 			<Skills />
 		</section>
 	);

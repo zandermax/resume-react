@@ -2,20 +2,15 @@
 @use "../../styles/spacing";
 
 main {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(min(25ch, 100%), 1fr));
+	// display: grid;
+	// grid-template-columns: repeat(auto-fit, minmax(min(25ch, 100%), 1fr));
 	margin-top: 2rem;
 	padding-block: 1rem;
 	background-color: colors.$main-background;
 	border: 2px solid;
 	border-radius: 8px;
 
-	@include spacing.max-document-width;
 	@include colors.accent-color-alpha(border-color, 0.3);
-
-	> * {
-		min-width: fit-content;
-	}
 
 	h2 {
 		margin-bottom: 1rem;

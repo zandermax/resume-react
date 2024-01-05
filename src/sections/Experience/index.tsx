@@ -1,10 +1,14 @@
 import "./Experience.scss";
 import experienceList from "../../assets/experience.json";
+import { type ResponsiveProps } from "../../types";
 import ExperienceEntry from "./ExperienceEntry";
+import Typography from "@mui/joy/Typography";
 
-const Experience = () => {
+type ExperienceProps = ResponsiveProps;
+
+const Experience: React.FC<ExperienceProps> = ({ mobileLayout }) => {
 	return (
-		<section className="experience">
+		<section className={mobileLayout ? "mobile" : ""} id="experience">
 			<h2>Work experience</h2>
 			{experienceList.map((experience) => (
 				<ExperienceEntry
@@ -14,11 +18,15 @@ const Experience = () => {
 			))}
 			<article>
 				<hgroup>
-					<h3 className="color-accent">Microsoft</h3>
+					<Typography level="h3">
+						<span className="color-accent">Microsoft</span>
+					</Typography>
 					<p>2018</p>
 				</hgroup>
 				<div className="employment-position">
-					<h4>Software Development Engineer (Contract)</h4>
+					<Typography level="h4">
+						Software Development Engineer (Contract)
+					</Typography>
 					<div className="employment-details">
 						<hgroup>
 							<h5>Azure API and user interface development</h5>
@@ -37,11 +45,13 @@ const Experience = () => {
 			</article>
 			<article>
 				<hgroup>
-					<h3 className="color-accent">ReedHein and Associates</h3>
+					<Typography level="h3">
+						<span className="color-accent">ReedHein and Associates</span>
+					</Typography>
 					<p>2017 – 2018</p>
 				</hgroup>
 				<div className="employment-position">
-					<h4>Software Developer</h4>
+					<Typography level="h4">Software Developer</Typography>
 					<div className="employment-details">
 						<hgroup>
 							<h5>Node module development</h5>
@@ -51,7 +61,7 @@ const Experience = () => {
 						</hgroup>
 						<p>
 							Developed an open-source npm software package to assist with
-							Salesforce DX development,
+							Salesforce DX development,{" "}
 							<a
 								href="https://www.npmjs.com/package/sfdx"
 								rel="noreferrer"
@@ -83,11 +93,13 @@ const Experience = () => {
 				</summary>
 				<article>
 					<hgroup>
-						<h3 className="color-accent">The Advisory Board Company</h3>
+						<Typography level="h3">
+							<span className="color-accent">The Advisory Board Company</span>
+						</Typography>
 						<p>2015 – 2017</p>
 					</hgroup>
 					<div className="employment-position">
-						<h4>Software Engineer</h4>
+						<Typography level="h4">Software Engineer</Typography>
 						<div className="employment-details">
 							<hgroup>
 								<h5>Physician Alignment dashboard</h5>
@@ -123,11 +135,13 @@ const Experience = () => {
 				</article>
 				<article>
 					<hgroup>
-						<h3 className="color-accent">Iowa State University</h3>
+						<Typography level="h3">
+							<span className="color-accent">Iowa State University</span>
+						</Typography>
 						<p>2013 – 2015</p>
 					</hgroup>
 					<div className="employment-position">
-						<h4>Software Engineer</h4>
+						<Typography level="h4">Software Engineer</Typography>
 						<div className="employment-details">
 							<hgroup>
 								<h5>Iowa State University Computer Science Department</h5>
