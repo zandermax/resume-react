@@ -1,5 +1,28 @@
 [
 	{
+		"company": "CHECK24",
+		"dateStart": 2024,
+		"positions": [
+			{
+				"description": [
+					"I am currently working on CHECK24's portal for provisional employment insurance, which is a web application that allows users to find and manage their provisional employment insurance policies. My role involves developing the front-end of the application using React and TypeScript, as well as integrating it with the back-end services."
+				],
+				"positionSubtitle": "Provisional employment insurance (Berufsunfähigkeitsversicherung) portal development",
+				"positionTitle": "Software Engineer",
+				"skillsList": [
+					"CSS",
+					"HTML",
+					"JavaScript",
+					"Mobx",
+					"MongoDB",
+					"Node.js",
+					"React",
+					"TypeScript"
+				]
+			}
+		]
+	},
+	{
 		"company": "Amazon Web Services (AWS)",
 		"dateEnd": 2023,
 		"dateStart": 2019,
@@ -72,7 +95,7 @@
 					"I started at The Advisory Board by working with the Salesforce platform to create Physician Relationship Management software for healthcare providers. This work also involved substantial front-end design and development using Salesforce technology including Apex, SOQL and Visualforce. Other technologies used included Javascript, CSS, HTML, as well as some C# / Asp.Net work for data interaction."
 				],
 				"positionSubtitle": "Physician Relationship Manager (CRM for healthcare)",
-				"positionTitle": "Software Engineer",
+				"positionTitle": "Associate Software Engineer",
 				"skillsList": [
 					"CSS",
 					"Handlebars",
@@ -94,7 +117,7 @@
 					"We worked with physicians at the Mayo clinic (and beta programs at other institutions) to create, maintain and improve systems that provided real-time feedback during endoscopic examinations. I worked with two professors and several graduate students to implement image analysis procedures that related the movement of the inspection camera with measures of performance. Essentially, we created an enhanced version of the colonoscopy, which we showed through quantitative research increased physicians' ability to detect abnormalities in patients. My responsibilities included development of the web server that monitored remote systems (Apache Tomcat and Java), and remote systems configuration (Windows Services and Batch Scripting). The software we used was written in Java, and the real-time image processing was created using C (specifically OpenCV). I also did video creation using ffmpeg and programming video statistics using R."
 				],
 				"positionSubtitle": "Iowa State University Computer Science Department",
-				"positionTitle": "Software Engineer",
+				"positionTitle": "Computer Science Research Assistant",
 				"skillsList": ["C", "C++", "R", "Windows shell scripting"]
 			}
 		]
