@@ -1,18 +1,29 @@
 {
-	"extends": "canonical/auto",
-	"rules": {
-		"import/no-unassigned-import": [
+  "extends": "canonical/auto",
+  "rules": {
+    "import/no-unassigned-import": [
 			"error",
 			{
-				"allow": ["**/*.scss", "@fontsource/*"]
+				"allow": [
+					"**/*.css",
+					"**/*.scss",
+					"@fontsource/*"
+				]
 			}
-		],
-		"indent": ["error", "tab"],
-		"prettier/prettier": [
+    ],
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "jsonc/indent": [
+      "error",
+      "tab"
+    ],
+    "prettier/prettier": [
 			"error",
-			{
-				"useTabs": true
-			}
-		]
-	}
+      {
+        "useTabs": true
+      }
+    ]
+  }
 }

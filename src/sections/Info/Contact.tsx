@@ -1,3 +1,5 @@
+import "./Contact.scss";
+
 const Contact = () => {
 	return (
 		<article>
@@ -11,12 +13,10 @@ const Contact = () => {
 							rel="noreferrer"
 							target="_blank"
 						>
-							<p>zandermaxwell@hey.com</p>
-							<img
-								alt="mail"
-								className="contact-icon"
-								src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/regular/envelope.svg"
-							/>
+							<p>
+								zandermaxwell@hey.com
+								<span className="contactLink-icon-email contact-icon" />
+							</p>
 						</a>
 					</address>
 				</li>
@@ -24,16 +24,14 @@ const Contact = () => {
 					<span>
 						<a
 							className="li-with-icon"
-							href="tel:+14402539629"
+							href="tel:+4915172534939"
 							rel="noreferrer"
 							target="_blank"
 						>
-							<p>+1-440-253-9629</p>
-							<img
-								alt="phone"
-								className="contact-icon"
-								src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/phone.svg"
-							/>
+							<p>
+								+49 151 72534939
+								<span className="contactLink-icon-phone contact-icon" />
+							</p>
 						</a>
 					</span>
 				</li>
@@ -45,13 +43,10 @@ const Contact = () => {
 							rel="noreferrer"
 							target="_blank"
 						>
-							<p>linkedin.com/in/zandermax</p>
-							<img
-								alt="LinkedIn logo"
-								className="contact-icon"
-								id="logo-linkedin"
-								src="https://raw.githubusercontent.com/Automattic/social-logos/trunk/svg-min/linkedin.svg"
-							/>
+							<p>
+								linkedin.com/in/zandermax
+								<span className="contactLink-icon-linkedin contact-icon" />
+							</p>
 						</a>
 					</span>
 				</li>
@@ -63,12 +58,10 @@ const Contact = () => {
 							rel="noreferrer"
 							target="_blank"
 						>
-							<p>github.com/zandermax</p>
-							<img
-								alt="GitHub logo"
-								className="contact-icon"
-								src="https://raw.githubusercontent.com/primer/octicons/main/icons/mark-github-16.svg"
-							/>
+							<p className="contactLink-github">
+								github.com/zandermax
+								<span className="contactLink-icon-github contact-icon" />
+							</p>
 						</a>
 					</span>
 				</li>

@@ -6,8 +6,8 @@
 		"positions": [
 			{
 				"description": [
-					"In my last position I was responsible for the front end design and development on products used by IT Support Engineers (ITSEs) that support all Amazon employees (about 5000 regular users). The main product was a web application that incorporates many tools together for the sake of enabling ITSEs to have an efficient and centralized workflow.",
-					"Additionally, I lead the development of re-usable micro-frontends used in multiple Amazon software packages by multiple development teams. These are created and connected through Webpack's Federated Modules. Each implementation uses React lazy-loading, and the latest versions use custom web components and custom events to communicate with the host application."
+					"Additionally, I lead the development of re-usable micro-frontends used in multiple Amazon software packages by multiple development teams. These are created and connected through Webpack's Federated Modules. Each implementation uses React lazy-loading, and the latest versions use custom web components and custom events to communicate with the host application.",
+					"In my last position I was responsible for the front end design and development on products used by IT Support Engineers (ITSEs) that support all Amazon employees (about 5000 regular users). The main product was a web application that incorporates many tools together for the sake of enabling ITSEs to have an efficient and centralized workflow."
 				],
 				"positionSubtitle": "IT Support contact resolution software development",
 				"positionTitle": "Front-End Engineer",
@@ -21,6 +21,81 @@
 					"Sass / CSS",
 					"Typescript"
 				]
+			}
+		]
+	},
+	{
+		"company": "Microsoft",
+		"dateEnd": 2018,
+		"dateStart": 2018,
+		"positions": [
+			{
+				"description": [
+					"At Microsoft, I was focused on development work related the internal Azure API used to create internal subscriptions and registrations. I also developed an improved user interface for internal subscription tracking using the Kendo UI library."
+				],
+				"positionSubtitle": "Azure API and user interface development",
+				"positionTitle": "Software Development Engineer (Contract)",
+				"skillsList": ["ASP.NET", "Azure", "C#", "HTML", "JavaScript", "SQL"]
+			}
+		]
+	},
+	{
+		"company": "ReedHein and Associates",
+		"dateEnd": 2017,
+		"dateStart": 2018,
+		"positions": [
+			{
+				"description": [
+					"Developed an open-source npm software package to assist with Salesforce DX development,  {link address=https://www.npmjs.com/package/sfdx}sfdx{/link}, which allows Salesforce DX features to be directly usable within Node projects. Also created an additional project that interacts with sfdx via a UI in React, to make the functionality provided by Salesforce DX easier to use by non-developers."
+				],
+				"positionSubtitle": "Node module development and Salesforce customization",
+				"positionTitle": "Software Developer",
+				"skillsList": ["GitHub", "JavaScript", "Node.js", "React", "Salesforce"]
+			}
+		]
+	},
+	{
+		"company": "The Advisory Board Company",
+		"dateEnd": 2015,
+		"dateStart": 2016,
+		"positions": [
+			{
+				"description": [
+					"I helped to create a web app used by healthcare systems that used extensive Node.js / javascript / CSS / HTML on the front end to interact with SQL database structures through APIs written in C# and the ASP.Net framework. My work on this app was essentially full-stack development, as I worked on all parts of the app."
+				],
+				"positionSubtitle": "Custom web application development",
+				"positionTitle": "Software Engineer",
+				"skillsList": ["ASP.NET", "C#", "HTML", "JavaScript", "npm", "SQL"]
+			},
+			{
+				"description": [
+					"I started at The Advisory Board by working with the Salesforce platform to create Physician Relationship Management software for healthcare providers. This work also involved substantial front-end design and development using Salesforce technology including Apex, SOQL and Visualforce. Other technologies used included Javascript, CSS, HTML, as well as some C# / Asp.Net work for data interaction."
+				],
+				"positionSubtitle": "Physician Relationship Manager (CRM for healthcare)",
+				"positionTitle": "Software Engineer",
+				"skillsList": [
+					"CSS",
+					"Handlebars",
+					"HTML",
+					"Java",
+					"Python",
+					"Salesforce"
+				]
+			}
+		]
+	},
+	{
+		"company": "Iowa State University",
+		"dateEnd": 2015,
+		"dateStart": 2013,
+		"positions": [
+			{
+				"description": [
+					"We worked with physicians at the Mayo clinic (and beta programs at other institutions) to create, maintain and improve systems that provided real-time feedback during endoscopic examinations. I worked with two professors and several graduate students to implement image analysis procedures that related the movement of the inspection camera with measures of performance. Essentially, we created an enhanced version of the colonoscopy, which we showed through quantitative research increased physicians' ability to detect abnormalities in patients. My responsibilities included development of the web server that monitored remote systems (Apache Tomcat and Java), and remote systems configuration (Windows Services and Batch Scripting). The software we used was written in Java, and the real-time image processing was created using C (specifically OpenCV). I also did video creation using ffmpeg and programming video statistics using R."
+				],
+				"positionSubtitle": "Iowa State University Computer Science Department",
+				"positionTitle": "Software Engineer",
+				"skillsList": ["C", "C++", "R", "Windows shell scripting"]
 			}
 		]
 	}

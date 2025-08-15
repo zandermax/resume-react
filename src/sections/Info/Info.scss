@@ -14,7 +14,7 @@
 		display: block;
 		@include animations.scale-on-hover($duration: 0.08s, $delay: 0.0s);
 
-		&:hover img {
+		&:hover .contact-icon {
 			@include animations.spin($delay: 0.0s);
 		}
 	}
@@ -25,8 +25,14 @@
 		justify-content: end;
 		column-gap: 2ch;
 
+		> * {
+			display: inline-flex;
+			margin-block: 0.25em;
+		}
+
 		.contact-icon {
 			@include colors.black-to-accent;
+			margin-inline-start: 1em;
 		}
 
 		* {
@@ -77,10 +83,6 @@
 
 		* {
 			text-align: end;
-		}
-
-		p, li {
-			line-height: 2;
 		}
 	}
 

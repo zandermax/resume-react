@@ -19,6 +19,14 @@ const Education: React.FC<EducationProps> = ({ mobileLayout }) => {
 				<p className="supplemental-list">Philosophy, Psychology Minors</p>
 			</hgroup>
 			<p>United States – 2015</p>
+			<hgroup>
+				<Typography level="h4">
+					(Not continued) Human-Computer Interaction
+					{mobileLayout ? ", " : <br />}
+					Master of HCI
+				</Typography>
+			</hgroup>
+			<p>United States – 2019 (not completed)</p>
 		</article>
 	);
 };

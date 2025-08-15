@@ -1,3 +1,4 @@
+import PositionDetails from "./PositionDetails";
 import Typography from "@mui/joy/Typography";
 
 // TODO create schema for JSON files
@@ -22,15 +23,18 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 	dateStart,
 	positions,
 }) => {
+	const dateString =
+		dateStart === dateEnd
+			? dateStart
+			: `${dateStart} - ${dateEnd ?? "Present"}`;
+
 	return (
 		<article>
 			<hgroup>
 				<Typography level="h3">
 					<span className="color-accent">{company}</span>
 				</Typography>
-				<p>
-					{dateStart} - {dateEnd ?? "Present"}
-				</p>
+				<p>{dateString}</p>
 			</hgroup>
 			{positions.map(
 				({
@@ -50,9 +54,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 								{positionSubtitle && <h5>{positionSubtitle}</h5>}
 								<p className="supplemental-list">{skillsList.join(", ")}</p>
 							</hgroup>
-							{description.map((descriptionEntry) => (
-								<p key={descriptionEntry}>{descriptionEntry}</p>
-							))}
+							<PositionDetails descriptionText={description} />
 						</div>
 					</div>
 				),
