@@ -1,4 +1,4 @@
-$accent-color: rgb(var(--color-accent));
+$accent-color: var(--color-accent);
 $accent-color-text: var(--color-accent-text);
 $body-background: var(--color-background-body);
 $main-background: var(--color-background-main);
@@ -13,7 +13,7 @@ $main-background: var(--color-background-main);
 }
 
 :root {
-	--color-accent: 236, 64, 122;
+	--color-accent: rgb(236, 64, 122);
 	--color-accent-text: black;
 	--color-background-body: #ECEFF1;
 	--color-background-main: white;

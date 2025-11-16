@@ -1,0 +1,5 @@
+export default {
+	details:
+		"As a developer who prioritizes creating quality user experiences, I look to work on projects where I can combine both my creative and technical skills to design and construct technology that users find accessible, intuitive, and beautiful.",
+	title: "About Me",
+};

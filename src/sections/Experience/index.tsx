@@ -1,13 +1,20 @@
 import "./Experience.scss";
-import experienceList from "../../assets/experience.json";
+import { experienceData } from "../../data/experienceData";
 import { type ResponsiveProps } from "../../types";
 import ExperienceEntry from "./ExperienceEntry";
+
+const NUMBER_OF_POSITIONS_BEFORE_FOLD = 3;
 
 type ExperienceProps = ResponsiveProps;
 
 const Experience: React.FC<ExperienceProps> = ({ mobileLayout }) => {
-	const beforeTheFoldPositions = experienceList.slice(0, 3);
-	const afterTheFoldPositions = experienceList.slice(3);
+	const beforeTheFoldPositions = experienceData.slice(
+		0,
+		NUMBER_OF_POSITIONS_BEFORE_FOLD,
+	);
+	const afterTheFoldPositions = experienceData.slice(
+		NUMBER_OF_POSITIONS_BEFORE_FOLD,
+	);
 
 	return (
 		<section className={mobileLayout ? "mobile" : ""} id="experience">

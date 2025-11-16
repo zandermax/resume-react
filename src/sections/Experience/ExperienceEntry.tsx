@@ -1,23 +1,7 @@
-import PositionDetails from "./PositionDetails";
+import { type ExperienceEntryType } from "../../types";
 import Typography from "@mui/joy/Typography";
 
-// TODO create schema for JSON files
-type PositionInfo = {
-	currentPosition?: boolean;
-	description: string[];
-	positionSubtitle?: string;
-	positionTitle: string;
-	skillsList: string[];
-};
-
-type ExperienceEntryProps = {
-	company: string;
-	dateEnd?: number;
-	dateStart: number;
-	positions: PositionInfo[];
-};
-
-const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
+const ExperienceEntry: React.FC<ExperienceEntryType> = ({
 	company,
 	dateEnd,
 	dateStart,
@@ -54,7 +38,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 								{positionSubtitle && <h5>{positionSubtitle}</h5>}
 								<p className="supplemental-list">{skillsList.join(", ")}</p>
 							</hgroup>
-							<PositionDetails descriptionText={description} />
+							{description}
 						</div>
 					</div>
 				),
